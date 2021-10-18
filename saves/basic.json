@@ -2,7 +2,7 @@
   "configs": {
     "topTaskBar": false,
     "sound": false,
-    "wallpaper": "./res/img/wallpapers/bg1.jpg",
+    "wallpaper": "./res/img/wallpapers/bg2.jpg",
     "wallpaperBlur": false,
     "wallpaperSlide": false,
     "wallpaperSlideRandom": true,
@@ -442,11 +442,77 @@
       "url": "https://imgchr.com/",
       "customTile": "",
       "urlRandomToken": true
+    },
+    "qin2dim-github": {
+      "addressBar": false,
+      "autoRun": 0,
+      "background": false,
+      "badge": 0,
+      "desc": "github 个人页面",
+      "icon": {
+        "type": "fa",
+        "content": "github",
+        "bg": "#292929"
+      },
+      "openMode": "outer",
+      "plugin": false,
+      "position": {
+        "autoOffset": true,
+        "left": true,
+        "top": true,
+        "x": "x*0.05",
+        "y": "y*0.05"
+      },
+      "version": "1.0.0",
+      "poweredBy": "github",
+      "resizable": false,
+      "single": false,
+      "size": {
+        "height": "y*0.8-80",
+        "width": "x*0.8"
+      },
+      "title": "github",
+      "url": "https://github.com/qin2dim",
+      "customTile": "",
+      "urlRandomToken": false
+    },
+    "qin2dim-browser": {
+      "addressBar": true,
+      "autoRun": 0,
+      "background": false,
+      "badge": 0,
+      "desc": "浏览器",
+      "icon": {
+        "type": "fa",
+        "content": "google",
+        "bg": "#7fa2ee"
+      },
+      "openMode": "normal",
+      "plugin": false,
+      "position": {
+        "autoOffset": true,
+        "left": true,
+        "top": true,
+        "x": "x*0.1",
+        "y": "y*0.1"
+      },
+      "version": "1.0.0",
+      "poweredBy": "Yuri2",
+      "resizable": true,
+      "single": false,
+      "size": {
+        "height": "y*0.8-80",
+        "width": "x*0.8"
+      },
+      "title": "浏览器",
+      "url": "./res/apps/browser/index.html",
+      "customTile": "",
+      "urlRandomToken": true
     }
   },
   "shortcuts": [
     {
-      "app": "yl-browser",
+      "app": "qin2dim-browser",
       "title": "浏览器",
       "params": {},
       "hash": ""
@@ -458,38 +524,15 @@
       "hash": ""
     },
     {
-      "app": "yl-app-home",
-      "title": "YLUI 官网",
+      "app": "qin2dim-github",
+      "title": "GitHub",
       "params": {},
       "hash": ""
-    },
-    {
-      "title": "代码库",
-      "children": [
-        {
-          "app": "ylui-documents",
-          "title": "在线文档",
-          "params": {},
-          "hash": ""
-        },
-        {
-          "app": "ylui-github",
-          "title": "github",
-          "params": {},
-          "hash": ""
-        },
-        {
-          "app": "ylui-gitee",
-          "title": "码云仓库",
-          "params": {},
-          "hash": ""
-        }
-      ]
     }
   ],
   "tiles": [
     {
-      "title": "系统",
+      "title": "便捷访问",
       "data": [
         {
           "x": 0,
@@ -518,7 +561,7 @@
           "y": 4,
           "w": 2,
           "h": 2,
-          "app": "yl-browser",
+          "app": "qin2dim-browser",
           "title": "浏览器",
           "i": "146",
           "params": {},
@@ -554,7 +597,7 @@
     "height": 494,
     "sidebar": [
       {
-        "app": "yl-browser",
+        "app": "qin2dim-browser",
         "title": "浏览器",
         "params": {},
         "hash": ""
@@ -566,14 +609,8 @@
     ],
     "menu": {
       "itemPushed-85": {
-        "app": "yl-browser",
+        "app": "qin2dim-browser",
         "title": "浏览器",
-        "params": {},
-        "hash": ""
-      },
-      "itemPushed-89": {
-        "app": "yl-app-home",
-        "title": "YLUI 官网",
         "params": {},
         "hash": ""
       },
@@ -589,21 +626,9 @@
         "params": {},
         "hash": ""
       },
-      "itemPushed-153": {
-        "app": "ylui-documents",
-        "title": "在线文档",
-        "params": {},
-        "hash": ""
-      },
-      "itemPushed-155": {
-        "app": "ylui-gitee",
-        "title": "码云仓库",
-        "params": {},
-        "hash": ""
-      },
       "itemPushed-157": {
-        "app": "ylui-github",
-        "title": "github",
+        "app": "qin2dim-github",
+        "title": "GitHub",
         "params": {},
         "hash": ""
       }
