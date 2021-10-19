@@ -212,39 +212,6 @@
       "customTile": "",
       "urlRandomToken": true
     },
-    "yl-app-home": {
-      "addressBar": false,
-      "autoRun": 0,
-      "background": false,
-      "badge": 0,
-      "desc": "YLUI官方网站",
-      "icon": {
-        "type": "fa",
-        "content": "yoast",
-        "bg": "#6b96cf"
-      },
-      "openMode": "normal",
-      "plugin": false,
-      "position": {
-        "autoOffset": true,
-        "left": true,
-        "top": true,
-        "x": "x*0.1",
-        "y": "y*0.1"
-      },
-      "version": "1.0.0",
-      "poweredBy": "Yuri2",
-      "resizable": true,
-      "single": true,
-      "size": {
-        "height": "y*0.8-80",
-        "width": "x*0.8"
-      },
-      "title": "YLUI 官网",
-      "url": "https://ylui.yuri2.cn",
-      "customTile": "",
-      "urlRandomToken": true
-    },
     "yl-server": {
       "addressBar": false,
       "autoRun": 1,
@@ -308,72 +275,6 @@
       },
       "title": "在线文档",
       "url": "https://github.com:/yuri2peter/ylui/tree/master/documents",
-      "customTile": "",
-      "urlRandomToken": false
-    },
-    "ylui-gitee": {
-      "addressBar": false,
-      "autoRun": 0,
-      "background": false,
-      "badge": 0,
-      "desc": "",
-      "icon": {
-        "type": "str",
-        "content": "G",
-        "bg": "rgb(216,2,18)"
-      },
-      "openMode": "normal",
-      "plugin": false,
-      "position": {
-        "autoOffset": true,
-        "left": true,
-        "top": true,
-        "x": "x*0.05",
-        "y": "y*0.05"
-      },
-      "version": "1.0.0",
-      "poweredBy": "",
-      "resizable": true,
-      "single": false,
-      "size": {
-        "height": "y*0.8-80",
-        "width": "x*0.8"
-      },
-      "title": "码云仓库",
-      "url": "https://gitee.com:/yuri2/ylui",
-      "customTile": "",
-      "urlRandomToken": true
-    },
-    "ylui-github": {
-      "addressBar": false,
-      "autoRun": 0,
-      "background": false,
-      "badge": 0,
-      "desc": "github仓库地址",
-      "icon": {
-        "type": "fa",
-        "content": "github",
-        "bg": "#292929"
-      },
-      "openMode": "outer",
-      "plugin": false,
-      "position": {
-        "autoOffset": true,
-        "left": true,
-        "top": true,
-        "x": "x*0.05",
-        "y": "y*0.05"
-      },
-      "version": "1.0.0",
-      "poweredBy": "github",
-      "resizable": false,
-      "single": false,
-      "size": {
-        "height": "y*0.8-80",
-        "width": "x*0.8"
-      },
-      "title": "github",
-      "url": "https://github.com:/yuri2peter/ylui",
       "customTile": "",
       "urlRandomToken": false
     },
@@ -508,6 +409,195 @@
       "url": "./res/apps/browser/index.html",
       "customTile": "",
       "urlRandomToken": true
+    },
+    "qin2dim-blog": {
+      "addressBar": true,
+      "autoRun": 0,
+      "background": false,
+      "badge": 0,
+      "desc": "blog",
+      "icon": {
+        "type": "fa",
+        "content": "coffee",
+        "bg": ""
+      },
+      "openMode": "normal",
+      "plugin": false,
+      "position": {
+        "autoOffset": true,
+        "left": true,
+        "top": true,
+        "x": "x*0.1",
+        "y": "y*0.1"
+      },
+      "version": "1.0.0",
+      "poweredBy": "QIN2DIM",
+      "resizable": true,
+      "single": false,
+      "size": {
+        "height": "y*0.8-80",
+        "width": "x*0.8"
+      },
+      "title": "blog",
+      "url": "https://blog.echosec.top",
+      "customTile": "",
+      "urlRandomToken": true
+    },
+    "qin2dim-monitor": {
+      "addressBar": true,
+      "autoRun": 0,
+      "background": false,
+      "badge": 0,
+      "desc": "blog",
+      "icon": {
+        "type": "fa",
+        "content": "heartbeat",
+        "bg": ""
+      },
+      "openMode": "outer",
+      "plugin": false,
+      "position": {
+        "autoOffset": true,
+        "left": true,
+        "top": true,
+        "x": "x*0.1",
+        "y": "y*0.1"
+      },
+      "version": "1.0.0",
+      "poweredBy": "uptimerobot",
+      "resizable": true,
+      "single": false,
+      "size": {
+        "height": "y*0.8-80",
+        "width": "x*0.8"
+      },
+      "title": "monitor",
+      "url": "https://stats.uptimerobot.com/7MA5LUzEyN",
+      "customTile": "",
+      "urlRandomToken": true
+    },
+    "qin2dim-tg-invite": {
+      "addressBar": true,
+      "autoRun": 0,
+      "background": false,
+      "badge": 0,
+      "desc": "QIN2DIM's Tech Studio",
+      "icon": {
+        "type": "fa",
+        "content": "telegram",
+        "bg": ""
+      },
+      "openMode": "outer",
+      "plugin": false,
+      "position": {
+        "autoOffset": true,
+        "left": true,
+        "top": true,
+        "x": "x*0.1",
+        "y": "y*0.1"
+      },
+      "version": "1.0.0",
+      "poweredBy": "QIN2DIM",
+      "resizable": true,
+      "single": false,
+      "size": {
+        "height": "y*0.8-80",
+        "width": "x*0.8"
+      },
+      "title": "tg-invite",
+      "url": "https://t.me/joinchat/uOyvKX2mO4thYWFh",
+      "customTile": "",
+      "urlRandomToken": true
+    },
+    "ip-location": {
+      "desc": "高精度IP定位",
+      "icon": {
+        "type": "fa",
+        "content": "map-marker",
+        "bg": ""
+      },
+      "openMode": "outer",
+      "version": "1.0.0",
+      "poweredBy": "opengps",
+      "title": "高精度IP定位",
+      "url": "https://www.opengps.cn/Data/IP/ipplus.aspx",
+      "customTile": "",
+      "urlRandomToken": true
+    },
+    "secjuice": {
+      "desc": "NON-PROIT CYBER GOODNESS",
+      "icon": {
+        "type": "fa",
+        "content": "street-view",
+        "bg": ""
+      },
+      "openMode": "outer",
+      "version": "1.0.0",
+      "poweredBy": "secjuice",
+      "title": "NON-PROIT CYBER GOODNESS",
+      "url": "https://www.secjuice.com/",
+      "customTile": "",
+      "urlRandomToken": true
+    },
+    "crt.sh": {
+      "desc": "域名搜索引擎",
+      "icon": {
+        "type": "fa",
+        "content": "compress",
+        "bg": ""
+      },
+      "openMode": "outer",
+      "version": "1.0.0",
+      "poweredBy": "sectigo",
+      "title": "crt.sh",
+      "url": "https://crt.sh/?",
+      "customTile": "",
+      "urlRandomToken": true
+    },
+    "hack-cool": {
+      "desc": "黑客导航",
+      "icon": {
+        "type": "fa",
+        "content": "snapchat-ghost",
+        "bg": ""
+      },
+      "openMode": "outer",
+      "version": "1.0.0",
+      "poweredBy": "hack-coolzhanweb.com",
+      "title": "黑客导航",
+      "url": "https://hack.coolzhanweb.com/#term-7",
+      "customTile": "",
+      "urlRandomToken": true
+    },
+    "start.me": {
+      "desc": "听风者导航",
+      "icon": {
+        "type": "fa",
+        "content": "bullhorn",
+        "bg": ""
+      },
+      "openMode": "outer",
+      "version": "1.0.0",
+      "poweredBy": "startme",
+      "title": "听风者导航",
+      "url": "https://start.me/p/X20Apn",
+      "customTile": "",
+      "urlRandomToken": true
+    },
+    "ujuji": {
+      "desc": "优聚集",
+      "icon": {
+        "type": "fa",
+        "content": "superpowers",
+        "bg": ""
+      },
+      "openMode": "outer",
+      "version": "1.0.0",
+      "poweredBy": "youjuji",
+      "title": "优聚集",
+      "url": "https://ujuji.com/",
+      "customTile": "",
+      "urlRandomToken": true
     }
   },
   "shortcuts": [
@@ -528,11 +618,81 @@
       "title": "GitHub",
       "params": {},
       "hash": ""
+    },
+    {
+      "app": "qin2dim-blog",
+      "title": "博客站点",
+      "params": {},
+      "hash": ""
+    },
+    {
+      "app": "qin2dim-monitor",
+      "title": "心跳检测",
+      "params": {},
+      "hash": ""
+    },
+    {
+      "app": "qin2dim-tg-invite",
+      "title": "TG 群组",
+      "params": {},
+      "hash": ""
+    },
+    {
+      "title": "Navigators",
+      "children": [
+        {
+          "app": "hack-cool",
+          "title": "黑客导航",
+          "params": {},
+          "hash": ""
+        },
+        {
+          "app": "start.me",
+          "title": "听风者导航",
+          "params": {},
+          "hash": ""
+        },
+        {
+          "app": "ujuji",
+          "title": "优聚集",
+          "params": {},
+          "hash": ""
+        }
+      ]
+    },
+    {
+      "title": "OSINT",
+      "children": [
+        {
+          "app": "secjuice",
+          "title": "secjuice",
+          "params": {},
+          "hash": ""
+        },
+        {
+          "app": "ip-location",
+          "title": "高精度 IP 定位",
+          "params": {},
+          "hash": ""
+        },
+        {
+          "app": "crt.sh",
+          "title": "域名挖掘",
+          "params": {},
+          "hash": ""
+        }
+      ]
+    },
+    {
+      "app": "ylui-image-host",
+      "title": "路过图床",
+      "params": {},
+      "hash": ""
     }
   ],
   "tiles": [
     {
-      "title": "便捷访问",
+      "title": "捷径",
       "data": [
         {
           "x": 0,
@@ -572,8 +732,8 @@
           "y": 0,
           "w": 6,
           "h": 4,
-          "app": "yl-app-home",
-          "title": "YLUI 官网",
+          "app": "qin2dim-blog",
+          "title": "Echosec博客站点",
           "i": "147",
           "params": {},
           "hash": ""

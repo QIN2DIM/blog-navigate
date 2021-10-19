@@ -1,13 +1,13 @@
 YL.static = {
   /** “关于”信息 */
-  softwareName: 'Echosec的导航', //网站名。请在此处填写您自己的网站名，如王小明的博客。
+  softwareName: 'Navigator', //网站名。请在此处填写您自己的网站名，如王小明的博客。
   version: "1.0.0", // 网站版本号
-  iconBtnStart: 'html5', //主图标
+  iconBtnStart: 'user-secret', //主图标
   author: 'QIN2DIM',//作者
-  contactInformation: 'yx.qinse@ieee.org',//联系方式
+  contactInformation: 'yaoqinse@gmail.com',//联系方式
   officialWebsite: '',//软件官网
   welcome: '欢迎来到李芬特小窝！',//加载完毕控制台提示信息
-  copyrightDetail: '基于 YLUI,内容版权归 QIN2DIM 所有',//版权详细信息
+  copyrightDetail: '基于 YLUI，内容版权归 QIN2DIM 所有',//版权详细信息
   otherStatements: '',//其他信息（可留空）
 
   /**————————————————————————————————————————————————————————————————————————————————————————————*/
