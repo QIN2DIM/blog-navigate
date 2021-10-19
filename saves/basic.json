@@ -417,8 +417,8 @@
       "badge": 0,
       "desc": "blog",
       "icon": {
-        "type": "fa",
-        "content": "coffee ",
+        "type": "img",
+        "content": "./res/img/iconfont/blog-solid.svg",
         "bg": ""
       },
       "openMode": "normal",
@@ -643,6 +643,108 @@
       "url": "https://zoom.earth/",
       "customTile": "",
       "urlRandomToken": true
+    },
+    "scholar-chongbuluo": {
+      "desc": "虫部落学术搜索",
+      "icon": {
+        "type": "img",
+        "content": "./res/img/iconfont/search.svg",
+        "bg": ""
+      },
+      "openMode": "outer",
+      "version": "1.0.0",
+      "poweredBy": "虫部落",
+      "title": "虫部落学术搜索",
+      "url": "https://scholar.chongbuluo.com/",
+      "customTile": "",
+      "urlRandomToken": true
+    },
+    "xue8nav": {
+      "desc": "学吧导航",
+      "icon": {
+        "type": "img",
+        "content": "./res/img/iconfont/hat.svg",
+        "bg": ""
+      },
+      "openMode": "outer",
+      "version": "1.0.0",
+      "poweredBy": "学吧导航",
+      "title": "学吧导航",
+      "url": "https://www.xue8nav.com/",
+      "customTile": "",
+      "urlRandomToken": true
+    },
+    "woshipm": {
+      "desc": "阿猫阿狗导航",
+      "icon": {
+        "type": "img",
+        "content": "./res/img/iconfont/cat.svg",
+        "bg": ""
+      },
+      "openMode": "outer",
+      "version": "1.0.0",
+      "poweredBy": "阿猫阿狗导航",
+      "title": "阿猫阿狗导航",
+      "url": "https://dh.woshipm.com/",
+      "customTile": "",
+      "urlRandomToken": true
+    },
+    "seeseed": {
+      "desc": "无穷尽设计可能",
+      "icon": {
+        "type": "img",
+        "content": "./res/img/iconfont/design.svg",
+        "bg": ""
+      },
+      "openMode": "outer",
+      "version": "1.0.0",
+      "poweredBy": "seeseed",
+      "title": "seeseed",
+      "url": "https://www.seeseed.com/",
+      "customTile": "",
+      "urlRandomToken": true
+    },
+    "hippter": {
+      "desc": "PPT资源导航|模板免费下载",
+      "icon": {
+        "type": "img",
+        "content": "./res/img/iconfont/ppt.svg",
+        "bg": ""
+      },
+      "openMode": "outer",
+      "version": "1.0.0",
+      "poweredBy": "hippter",
+      "title": "hippter",
+      "url": "https://www.hippter.com/",
+      "customTile": "",
+      "urlRandomToken": true
+    },
+    "seedsufe": {
+      "desc": "轻量级行研数据工具",
+      "icon": {
+        "type": "img",
+        "content": "./res/img/iconfont/report.svg",
+        "bg": ""
+      },
+      "openMode": "outer",
+      "version": "1.0.0",
+      "poweredBy": "seesufe",
+      "title": "seesufe",
+      "url": "https://report.seedsufe.com",
+      "customTile": "",
+      "urlRandomToken": true
+    },
+    "jianweidata": {
+      "desc": "轻量级行研数据工具",
+      "icon": {
+        "type": "img",
+        "content": "./res/img/iconfont/data数据.svg",
+        "bg": ""
+      },
+      "openMode": "outer",
+      "poweredBy": "jianweidata",
+      "title": "jianweidata",
+      "url": "https://www.jianweidata.com"
     }
   },
   "shortcuts": [
@@ -702,6 +804,26 @@
           "title": "优聚集",
           "params": {},
           "hash": ""
+        },
+        {
+          "app": "scholar-chongbuluo",
+          "title": "虫部落学术搜索"
+        },
+        {
+          "app": "xue8nav",
+          "title": "学吧导航"
+        },
+        {
+          "app": "woshipm",
+          "title": "阿猫阿狗导航"
+        },
+        {
+          "app": "seeseed",
+          "title": "Seeseed"
+        },
+        {
+          "app": "hippter",
+          "title": "hippter"
         }
       ]
     },
@@ -744,6 +866,19 @@
         {
           "app": "yikm.net",
           "title": "小霸王，其乐无穷"
+        }
+      ]
+    },
+    {
+      "title": "Report",
+      "children": [
+        {
+          "app": "seedsufe",
+          "title": "报告查一查"
+        },
+        {
+          "app": "jianweidata",
+          "title": "见微数据"
         }
       ]
     }
