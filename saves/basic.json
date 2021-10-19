@@ -88,7 +88,7 @@
       "desc": "YLUI系统设置面板",
       "icon": {
         "type": "fa",
-        "bg": "#436fde",
+        "bg": "",
         "content": "gear"
       },
       "openMode": "normal",
@@ -188,7 +188,7 @@
       "icon": {
         "type": "fa",
         "content": "shopping-bag",
-        "bg": "#b36aba"
+        "bg": ""
       },
       "openMode": "normal",
       "plugin": false,
@@ -254,7 +254,7 @@
       "icon": {
         "type": "fa",
         "content": "book",
-        "bg": "#d9ab4a"
+        "bg": ""
       },
       "openMode": "outer",
       "plugin": false,
@@ -353,7 +353,7 @@
       "icon": {
         "type": "fa",
         "content": "github",
-        "bg": "#292929"
+        "bg": ""
       },
       "openMode": "outer",
       "plugin": false,
@@ -385,8 +385,8 @@
       "desc": "浏览器",
       "icon": {
         "type": "fa",
-        "content": "google",
-        "bg": "#7fa2ee"
+        "content": "chrome fa-spin",
+        "bg": ""
       },
       "openMode": "normal",
       "plugin": false,
@@ -418,7 +418,7 @@
       "desc": "blog",
       "icon": {
         "type": "fa",
-        "content": "coffee",
+        "content": "coffee ",
         "bg": ""
       },
       "openMode": "normal",
@@ -531,7 +531,7 @@
         "content": "street-view",
         "bg": ""
       },
-      "openMode": "outer",
+      "openMode": "normal",
       "version": "1.0.0",
       "poweredBy": "secjuice",
       "title": "NON-PROIT CYBER GOODNESS",
@@ -546,7 +546,7 @@
         "content": "compress",
         "bg": ""
       },
-      "openMode": "outer",
+      "openMode": "normal",
       "version": "1.0.0",
       "poweredBy": "sectigo",
       "title": "crt.sh",
@@ -561,7 +561,7 @@
         "content": "snapchat-ghost",
         "bg": ""
       },
-      "openMode": "outer",
+      "openMode": "normal",
       "version": "1.0.0",
       "poweredBy": "hack-coolzhanweb.com",
       "title": "黑客导航",
@@ -588,7 +588,7 @@
       "desc": "优聚集",
       "icon": {
         "type": "fa",
-        "content": "superpowers",
+        "content": "search",
         "bg": ""
       },
       "openMode": "outer",
@@ -596,6 +596,51 @@
       "poweredBy": "youjuji",
       "title": "优聚集",
       "url": "https://ujuji.com/",
+      "customTile": "",
+      "urlRandomToken": true
+    },
+    "cltt.org": {
+      "desc": "全国普通话培训测试信息资源网",
+      "icon": {
+        "type": "fa",
+        "content": "envira",
+        "bg": ""
+      },
+      "openMode": "normal",
+      "version": "1.0.0",
+      "poweredBy": "cltt.org",
+      "title": "全国普通话培训测试信息资源网",
+      "url": "http://www.cltt.org/studentscore",
+      "customTile": "",
+      "urlRandomToken": true
+    },
+    "yikm.net": {
+      "desc": "小霸王，其乐无穷",
+      "icon": {
+        "type": "fa",
+        "content": "gamepad",
+        "bg": ""
+      },
+      "openMode": "normal",
+      "version": "1.0.0",
+      "poweredBy": "yikm.net",
+      "title": "小霸王，其乐无穷",
+      "url": "https://www.yikm.net/",
+      "customTile": "",
+      "urlRandomToken": true
+    },
+    "zoom-earth": {
+      "desc": "实时气象卫星图像",
+      "icon": {
+        "type": "fa",
+        "content": "superpowers",
+        "bg": ""
+      },
+      "openMode": "outer",
+      "version": "1.0.0",
+      "poweredBy": "zoome.earth",
+      "title": "实时气象卫星图像",
+      "url": "https://zoom.earth/",
       "customTile": "",
       "urlRandomToken": true
     }
@@ -680,31 +725,33 @@
           "title": "域名挖掘",
           "params": {},
           "hash": ""
+        },
+        {
+          "app": "cltt.org",
+          "title": "cltt.org",
+          "params": {},
+          "hash": ""
+        },
+        {
+          "app": "zoom-earth",
+          "title": "实时气象卫星图像"
         }
       ]
     },
     {
-      "app": "ylui-image-host",
-      "title": "路过图床",
-      "params": {},
-      "hash": ""
+      "title": "Games",
+      "children": [
+        {
+          "app": "yikm.net",
+          "title": "小霸王，其乐无穷"
+        }
+      ]
     }
   ],
   "tiles": [
     {
       "title": "捷径",
       "data": [
-        {
-          "x": 0,
-          "y": 6,
-          "w": 2,
-          "h": 2,
-          "app": "yl-app-store",
-          "title": "应用商店",
-          "i": "91",
-          "params": {},
-          "hash": ""
-        },
         {
           "x": 0,
           "y": 4,
@@ -721,9 +768,9 @@
           "y": 4,
           "w": 2,
           "h": 2,
-          "app": "qin2dim-browser",
-          "title": "浏览器",
-          "i": "146",
+          "app": "yl-app-store",
+          "title": "应用商店",
+          "i": "91",
           "params": {},
           "hash": ""
         },
@@ -735,17 +782,6 @@
           "app": "qin2dim-blog",
           "title": "Echosec博客站点",
           "i": "147",
-          "params": {},
-          "hash": ""
-        },
-        {
-          "x": 2,
-          "y": 6,
-          "w": 4,
-          "h": 2,
-          "app": "ylui-documents",
-          "title": "在线文档",
-          "i": "158",
           "params": {},
           "hash": ""
         }

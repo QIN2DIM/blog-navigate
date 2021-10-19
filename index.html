@@ -11,6 +11,7 @@
         document.write('<script src="res/yl.js?v='+window.yluiVersion+'"><\/script>');
         document.write('<script src="onLoad.js?v='+window.yluiVersion+'"><\/script>');
     </script>
+    <!-- <link type="text/css" href="//cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"> -->
 </head>
 <body style="padding: 0;margin: 0;background: black">
 <div id="loading">
@@ -239,13 +240,10 @@
     <div class="bar" @contextMenu="barContextMenu" :style="barStyle" :class="{top:configs.topTaskBar}">
         <div class="mask" :style="{background:configs.themeColor}"></div>
         <div class="mask" :style="{background:'rgba(0,0,0,0.18)'}"></div>
-        <div class="mask powered-by" :class="{fade: runtime.winOpened}" >
-            Powered by YLUI v{{YL.info.version}}
-        </div>
+        <div class="mask powered-by" :class="{fade: runtime.winOpened}" ></div>
         <!--开始按钮-->
-        <div class="btn shadow-hover fa fa-fw"
+        <div class="btn shadow-hover fa fa-fw fa-windows"
              style="width: 36px;"
-             :class="[ 'fa-'+YL.info.iconBtnStart, {btnStartOpen: startMenu.open } ]"
              @click="if(startMenu.open){hideOpens();}else{hideOpens();startMenu.open=true} "></div>
         <!--子窗口的按钮-->
         <div class="btn win-task" @click="winTaskClick(id)"
