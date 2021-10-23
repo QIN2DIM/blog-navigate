@@ -745,6 +745,18 @@
       "poweredBy": "jianweidata",
       "title": "jianweidata",
       "url": "https://www.jianweidata.com"
+    },
+    "yupi": {
+      "desc": "编程导航",
+      "icon": {
+        "type": "img",
+        "content": "./res/img/iconfont/terminal.svg",
+        "bg": ""
+      },
+      "openMode": "outer",
+      "poweredBy": "程序员鱼皮",
+      "title": "编程导航",
+      "url": "https://www.code-nav.cn/"
     }
   },
   "shortcuts": [
@@ -824,6 +836,10 @@
         {
           "app": "hippter",
           "title": "hippter"
+        },
+        {
+          "app": "yupi",
+          "title": "编程导航"
         }
       ]
     },
