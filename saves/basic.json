@@ -621,7 +621,7 @@
         "content": "gamepad",
         "bg": ""
       },
-      "openMode": "normal",
+      "openMode": "outer",
       "version": "1.0.0",
       "poweredBy": "yikm.net",
       "title": "小霸王，其乐无穷",
@@ -757,6 +757,126 @@
       "poweredBy": "程序员鱼皮",
       "title": "编程导航",
       "url": "https://www.code-nav.cn/"
+    },
+    "docker-practice":{
+      "desc": "docker-从入门到实践",
+      "icon": {
+        "type": "img",
+        "content": "./res/img/iconfont/docker.svg",
+        "bg": ""
+      },
+      "openMode": "outer",
+      "poweredBy": "yeasy",
+      "title": "docker-从入门到实践",
+      "url": "https://yeasy.gitbook.io/docker_practice/"
+    },
+    "illustration-of-algorithm":{
+      "desc": "图解算法数据结构",
+      "icon": {
+        "type": "img",
+        "content": "./res/img/iconfont/大数据,数据结构,关系,关系分析,共同联系人,组织.svg",
+        "bg": ""
+      },
+      "openMode": "outer",
+      "poweredBy": "Krahets",
+      "title": "图解算法数据结构",
+      "url": "https://leetcode-cn.com/leetbook/detail/illustration-of-algorithm/"
+    },
+    "front-end-roadmap":{
+      "desc": "前端学习路线",
+      "icon": {
+        "type": "img",
+        "content": "./res/img/iconfont/魔术棒.svg",
+        "bg": ""
+      },
+      "openMode": "outer",
+      "poweredBy": "objtube",
+      "title": "前端学习路线",
+      "url": "https://objtube.github.io/front-end-roadmap/#/"
+    },
+    "free-ai-hub":{
+      "desc": "Free-AI-Hub",
+      "icon": {
+        "type": "img",
+        "content": "./res/img/iconfont/开发.svg",
+        "bg": ""
+      },
+      "openMode": "outer",
+      "poweredBy": "Free-AI-Hub",
+      "title": "Free-AI-Hub",
+      "url": "https://www.freeaihub.com/"
+    },
+    "one-python-craftsman":{
+      "desc": "Python 工匠",
+      "icon": {
+        "type": "img",
+        "content": "./res/img/iconfont/py-craftsman.svg",
+        "bg": ""
+      },
+      "openMode": "outer",
+      "poweredBy": "piglei",
+      "title": "Python 工匠",
+      "url": "https://github.com/piglei/one-python-craftsman"
+    },
+    "golang-roadmap":{
+      "desc": "Go语言学习路线",
+      "icon": {
+        "type": "img",
+        "content": "./res/img/iconfont/prog-golang01.svg",
+        "bg": ""
+      },
+      "openMode": "outer",
+      "poweredBy": "golangroadmap",
+      "title": "Go语言学习路线",
+      "url": "https://www.golangroadmap.com/"
+    },
+    "python-100-days":{
+      "desc": "Python - 100天从新手到大师",
+      "icon": {
+        "type": "img",
+        "content": "./res/img/iconfont/python-100-days.svg",
+        "bg": ""
+      },
+      "openMode": "outer",
+      "poweredBy": "jackfrued",
+      "title": "Python - 100天从新手到大师",
+      "url": "https://github.com/jackfrued/Python-100-Days"
+    },
+    "vue-ebook":{
+      "desc": "深入理解Vue.js实战",
+      "icon": {
+        "type": "img",
+        "content": "./res/img/iconfont/vuejs.svg",
+        "bg": ""
+      },
+      "openMode": "outer",
+      "poweredBy": "godbasin",
+      "title": "深入理解Vue.js实战",
+      "url": "https://godbasin.github.io/vue-ebook/"
+    },
+    "opensource-guide":{
+      "desc": "开源指北，一份给开源新手的保姆级开源百科",
+      "icon": {
+        "type": "img",
+        "content": "./res/img/iconfont/open-source-line.svg",
+        "bg": ""
+      },
+      "openMode": "outer",
+      "poweredBy": "gitee",
+      "title": "开源指北",
+      "url": "https://gitee.com/opensource-guide/"
+    },
+    "refactoring-guru":{
+      "desc": "设计模式",
+      "icon": {
+        "type": "img",
+        "content": "./res/img/iconfont/赋能科技研发.svg",
+        "bg": ""
+      },
+      "openMode": "outer",
+      "poweredBy": "Refactoring.Guru",
+      "title": "设计模式",
+      "url": "https://refactoringguru.cn/"
     }
   },
   "shortcuts": [
@@ -896,6 +1016,51 @@
           "app": "jianweidata",
           "title": "见微数据"
         }
+      ]
+    },
+    {
+      "title":"技术文档",
+      "children":[
+          {
+            "app":"docker-practice",
+            "title":"Docker"
+          },
+          {
+            "app":"illustration-of-algorithm",
+            "title":"图解算法数据结构"
+          },
+          {
+            "app":"front-end-roadmap",
+            "title":"前端学习路线"
+          },
+          {
+            "app":"free-ai-hub",
+            "title":"狐狸教程"
+          },
+          {
+            "app":"one-python-craftsman",
+            "title":"Python 工匠"
+          },
+          {
+            "app":"golang-roadmap",
+            "title":"Go语言学习路线"
+          },
+          {
+            "app":"python-100-days",
+            "title":"Python-100-Days"
+          },
+          {
+            "app":"vue-ebook",
+            "title":"深入理解Vue.js实战"
+          },
+          {
+            "app":"opensource-guide",
+            "title":"开源指北"
+          },
+          {
+            "app":"refactoring-guru",
+            "title":"设计模式"
+          }
       ]
     }
   ],
